@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
     <meta name="description" content="Perfil e redes sociais de Guilherme Guedes">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <!-- Meta tags para redes sociais -->
     <meta property="og:title" content="Meu Perfil - Guilherme Guedes">
@@ -15,31 +15,52 @@
     <meta property="og:image:alt" content="Foto de Guilherme Guedes">
     <meta property="og:site_name" content="Perfil - Guilherme Guedes">
     <meta property="og:url" content="https://guilhermeocg.github.io/estudos/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="full-center-center">
+        <!-- Caixa Branca -->
+        <div class="box">
 
-        <!--Seção superior-->
-        <div class="profile">
-            <div class="profile__header">
-                <img src="images/avatar.jpg" width="200px" alt="Foto de perfil">
+            <!-- Avatar ou Imagem de Perfil -->
+            <div class="box__avatar">
+                <img src="images/avatar.jpg" alt="Foto de perfil de Guilherme, cabelo loiro escuro, camiseta cor salmão">
+            </div>
+
+            <!-- Área de Títulos e Descrições -->
+            <div class="box__header">
                 <h1>Guilherme Guedes</h1>
                 <h2>Estudante de Programação</h2>
+                <p>Formado em Engenharia Química pela USP, atualmente estudando programação pelos cursos da Awari</p>
             </div>
 
-            <div class="profile__about">
-                <p>Descrição sobre o meu perfil</p>
+            <!-- Área de Conteúdo -->
+            <div class="box__content">
+                <ul class="link-list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/guilhermeocg" target="_blank">
+                            <span><img src="images/icon_linkedin.svg" alt="Logo do LinkedIn"></span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/guilhermeocg" target="_blank">
+                            <span><img src="images/icon_instagram.svg" alt="Logo do Instagram"></span>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/guilhermeocg" target="_blank">
+                            <span><img src="images/icon-facebook.svg" alt="Logo do Facebook"></span>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <!--Seção de links-->
-        <div class="links">
-            <ul>
-                <li><a href="https://www.instagram.com/guilhermeocg" target="_blank"><span class="emoji">&#8986;</span> <span class="links__item">Instagram</span></a></li>
-                <li><a href="https://www.linkedin.com/in/guilhermeocg" target="_blank"><span class="emoji">&#9924;</span> <span class="links__item">LinkedIn</span></a></li>
-                <li><a href="https://www.facebook.com/guilhermeocg" target="_blank"><span class="emoji">&#9989;</span> <span class="links__item">Facebook</span></a></li>
-            </ul>
-        </div>
     </div>
 </body>
 </html>
